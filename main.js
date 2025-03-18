@@ -190,7 +190,7 @@ document.addEventListener('click', (e) => {
             }
             
             updateCart();
-            
+        
             // Enhanced animation feedback
             e.target.innerHTML = '<i class="fas fa-check"></i> Added!';
             e.target.style.backgroundColor = '#27ae60';
